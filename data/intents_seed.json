@@ -1,0 +1,489 @@
+{
+  "dataset_name": "Kwidza CarePath synthetic intent seed dataset",
+  "version": "0.1.0",
+  "status": "synthetic_seed_not_validated_for_production",
+  "disclaimer": "These entries are synthetic design examples for information routing. They are not participant transcripts, prevalence evidence, diagnostic criteria, or verified representative language. Do not train, deploy, or make public claims from this set without consented, locally reviewed validation.",
+  "intended_use": "Prototype category mapping for non-diagnostic wellbeing information and verified-referral navigation.",
+  "records": [
+    {
+      "id": "CP001",
+      "colloquial_input": "I am tired all the time, even after sleeping.",
+      "language": "en",
+      "category": "fatigue_and_energy",
+      "action_path": "pathway_everyday_wellbeing_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP002",
+      "colloquial_input": "I wake up tired and carry everyone through the day.",
+      "language": "en",
+      "category": "fatigue_and_care_burden",
+      "action_path": "pathway_everyday_wellbeing_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP003",
+      "colloquial_input": "My body feels like it has no strength lately.",
+      "language": "en",
+      "category": "fatigue_and_energy",
+      "action_path": "pathway_everyday_wellbeing_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP004",
+      "colloquial_input": "I am running on empty but I cannot stop.",
+      "language": "en",
+      "category": "stress_and_overload",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP005",
+      "colloquial_input": "I am tired of being the strong one for everyone.",
+      "language": "en",
+      "category": "care_burden_and_boundaries",
+      "action_path": "pathway_peer_support_or_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP006",
+      "colloquial_input": "I cannot switch my mind off at night.",
+      "language": "en",
+      "category": "sleep_and_rest",
+      "action_path": "pathway_sleep_and_rest_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP007",
+      "colloquial_input": "I keep waking up in the middle of the night worrying.",
+      "language": "en",
+      "category": "sleep_and_stress",
+      "action_path": "pathway_sleep_and_rest_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP008",
+      "colloquial_input": "My sleep has gone upside down since things became difficult at home.",
+      "language": "en",
+      "category": "sleep_and_stress",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP009",
+      "colloquial_input": "After arguing at home, my chest feels heavy and I cannot sleep.",
+      "language": "en",
+      "category": "stress_after_conflict",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP010",
+      "colloquial_input": "Everything feels like too much right now.",
+      "language": "en",
+      "category": "stress_and_overload",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP011",
+      "colloquial_input": "I am overwhelmed with work, home and the children.",
+      "language": "en",
+      "category": "care_burden_and_stress",
+      "action_path": "pathway_practical_support_and_boundaries",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP012",
+      "colloquial_input": "I feel guilty whenever I rest.",
+      "language": "en",
+      "category": "rest_and_self_compassion",
+      "action_path": "pathway_everyday_wellbeing_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP013",
+      "colloquial_input": "I do not know how to say no without upsetting people.",
+      "language": "en",
+      "category": "boundaries_and_care_burden",
+      "action_path": "pathway_practical_support_and_boundaries",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP014",
+      "colloquial_input": "I am caring for everyone and forgetting myself.",
+      "language": "en",
+      "category": "care_burden_and_boundaries",
+      "action_path": "pathway_practical_support_and_boundaries",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP015",
+      "colloquial_input": "My periods have become difficult to manage.",
+      "language": "en",
+      "category": "menstrual_wellbeing",
+      "action_path": "pathway_menstrual_health_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP016",
+      "colloquial_input": "My cycle is changing and I want reliable information.",
+      "language": "en",
+      "category": "menstrual_wellbeing",
+      "action_path": "pathway_menstrual_health_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP017",
+      "colloquial_input": "I get a lot of pain around my period and need to know where to start.",
+      "language": "en",
+      "category": "menstrual_wellbeing",
+      "action_path": "pathway_menstrual_health_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP018",
+      "colloquial_input": "I have questions about changes in my body as I get older.",
+      "language": "en",
+      "category": "midlife_and_body_changes",
+      "action_path": "pathway_midlife_wellbeing_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP019",
+      "colloquial_input": "I do not recognise my body lately.",
+      "language": "en",
+      "category": "body_changes_and_self_image",
+      "action_path": "pathway_midlife_wellbeing_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP020",
+      "colloquial_input": "I feel hot at night and my sleep is suffering.",
+      "language": "en",
+      "category": "midlife_and_sleep",
+      "action_path": "pathway_midlife_wellbeing_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP021",
+      "colloquial_input": "I want to move more but I do not know where to begin.",
+      "language": "en",
+      "category": "movement_and_routine",
+      "action_path": "pathway_everyday_movement_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP022",
+      "colloquial_input": "Exercise feels like another pressure, not support.",
+      "language": "en",
+      "category": "movement_and_stress",
+      "action_path": "pathway_everyday_movement_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP023",
+      "colloquial_input": "I need simple ways to move around work and family.",
+      "language": "en",
+      "category": "movement_and_routine",
+      "action_path": "pathway_everyday_movement_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP024",
+      "colloquial_input": "I have stopped enjoying food because I am too stressed.",
+      "language": "en",
+      "category": "nourishment_and_stress",
+      "action_path": "pathway_everyday_nourishment_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP025",
+      "colloquial_input": "I need affordable meal ideas that help me feel steady.",
+      "language": "en",
+      "category": "everyday_nourishment",
+      "action_path": "pathway_everyday_nourishment_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP026",
+      "colloquial_input": "I am skipping meals because the day gets away from me.",
+      "language": "en",
+      "category": "nourishment_and_routine",
+      "action_path": "pathway_everyday_nourishment_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP027",
+      "colloquial_input": "I want support but I do not want people in my business.",
+      "language": "en",
+      "category": "privacy_and_support",
+      "action_path": "pathway_private_information_and_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP028",
+      "colloquial_input": "Can I ask for help without everyone knowing?",
+      "language": "en",
+      "category": "privacy_and_support",
+      "action_path": "pathway_private_information_and_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP029",
+      "colloquial_input": "I do not want to be judged for struggling.",
+      "language": "en",
+      "category": "stigma_and_emotional_support",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP030",
+      "colloquial_input": "I need someone to talk to who will not shame me.",
+      "language": "en",
+      "category": "stigma_and_emotional_support",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP031",
+      "colloquial_input": "I feel alone even when people are around me.",
+      "language": "en",
+      "category": "isolation_and_belonging",
+      "action_path": "pathway_peer_support_or_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP032",
+      "colloquial_input": "I have no one I can be honest with.",
+      "language": "en",
+      "category": "isolation_and_belonging",
+      "action_path": "pathway_peer_support_or_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP033",
+      "colloquial_input": "I have been carrying grief quietly.",
+      "language": "en",
+      "category": "grief_and_loss",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP034",
+      "colloquial_input": "I am not coping after losing someone important.",
+      "language": "en",
+      "category": "grief_and_loss",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP035",
+      "colloquial_input": "I need help finding the right person to ask about this.",
+      "language": "en",
+      "category": "healthcare_navigation",
+      "action_path": "pathway_question_preparation_and_referral_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP036",
+      "colloquial_input": "I get confused by clinics and do not know where to go first.",
+      "language": "en",
+      "category": "healthcare_navigation",
+      "action_path": "pathway_question_preparation_and_referral_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP037",
+      "colloquial_input": "What questions should I take to a health professional?",
+      "language": "en",
+      "category": "healthcare_navigation",
+      "action_path": "pathway_question_preparation_and_referral_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP038",
+      "colloquial_input": "I cannot afford to keep trying different places for help.",
+      "language": "en",
+      "category": "cost_and_access",
+      "action_path": "pathway_affordable_support_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP039",
+      "colloquial_input": "I need support that does not cost too much.",
+      "language": "en",
+      "category": "cost_and_access",
+      "action_path": "pathway_affordable_support_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP040",
+      "colloquial_input": "I do not have time to travel far for support.",
+      "language": "en",
+      "category": "access_and_time_constraints",
+      "action_path": "pathway_private_information_and_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP041",
+      "colloquial_input": "I am worried about taking time off work to get help.",
+      "language": "en",
+      "category": "work_and_access",
+      "action_path": "pathway_private_information_and_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP042",
+      "colloquial_input": "Work is draining me and I am bringing it all home.",
+      "language": "en",
+      "category": "work_stress",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP043",
+      "colloquial_input": "I am scared my manager will think I cannot cope.",
+      "language": "en",
+      "category": "work_stress_and_privacy",
+      "action_path": "pathway_private_information_and_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP044",
+      "colloquial_input": "I want to ask for help at work without making it a big thing.",
+      "language": "en",
+      "category": "work_stress_and_privacy",
+      "action_path": "pathway_practical_support_and_boundaries",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP045",
+      "colloquial_input": "My relationship is under pressure and I do not know who to talk to.",
+      "language": "en",
+      "category": "relationship_stress",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP046",
+      "colloquial_input": "I am trying to support my family while I am struggling too.",
+      "language": "en",
+      "category": "care_burden_and_stress",
+      "action_path": "pathway_peer_support_or_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP047",
+      "colloquial_input": "I keep putting my own health last.",
+      "language": "en",
+      "category": "self_prioritisation",
+      "action_path": "pathway_everyday_wellbeing_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP048",
+      "colloquial_input": "I want small changes, not another strict plan.",
+      "language": "en",
+      "category": "everyday_wellbeing_goals",
+      "action_path": "pathway_everyday_wellbeing_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP049",
+      "colloquial_input": "I need a gentle place to start.",
+      "language": "en",
+      "category": "everyday_wellbeing_goals",
+      "action_path": "pathway_everyday_wellbeing_information",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP050",
+      "colloquial_input": "Eish, life is just too much right now.",
+      "language": "en",
+      "category": "stress_and_overload",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP051",
+      "colloquial_input": "I am ashamed that I am not managing better.",
+      "language": "en",
+      "category": "stigma_and_emotional_support",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP052",
+      "colloquial_input": "I do not know whether what I am feeling is serious.",
+      "language": "en",
+      "category": "uncertainty_and_navigation",
+      "action_path": "pathway_question_preparation_and_referral_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP053",
+      "colloquial_input": "I want information first before I decide what to do.",
+      "language": "en",
+      "category": "information_seeking",
+      "action_path": "pathway_private_information_and_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP054",
+      "colloquial_input": "I am not ready to talk face to face.",
+      "language": "en",
+      "category": "privacy_and_support",
+      "action_path": "pathway_private_information_and_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP055",
+      "colloquial_input": "I need support that respects my faith and privacy.",
+      "language": "en",
+      "category": "faith_and_privacy_preferences",
+      "action_path": "pathway_private_information_and_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP056",
+      "colloquial_input": "I am worried about my mood since having a baby.",
+      "language": "en",
+      "category": "postnatal_wellbeing_information",
+      "action_path": "pathway_postnatal_information_and_referral_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP057",
+      "colloquial_input": "I need information after a pregnancy loss, but I do not want to explain everything.",
+      "language": "en",
+      "category": "pregnancy_loss_support",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP058",
+      "colloquial_input": "I am trying to get pregnant and the waiting is exhausting.",
+      "language": "en",
+      "category": "fertility_related_stress",
+      "action_path": "pathway_emotional_support",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP059",
+      "colloquial_input": "I want to understand what support exists before I share my story.",
+      "language": "en",
+      "category": "privacy_and_information_seeking",
+      "action_path": "pathway_private_information_and_options",
+      "review_status": "synthetic_requires_consented_local_validation"
+    },
+    {
+      "id": "CP060",
+      "colloquial_input": "Ndinosangana nemarwadzo akanyanya panguva yeenda.",
+      "language": "sn",
+      "category": "menstrual_wellbeing",
+      "action_path": "pathway_menstrual_health_information",
+      "review_status": "user_supplied_example_requires_independent_Shona_review"
+    }
+  ]
+}
